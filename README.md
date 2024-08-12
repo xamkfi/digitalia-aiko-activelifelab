@@ -7,7 +7,7 @@ Running this demo requires at least 16GB free VRAM on CUDA capable GPU, tested u
 The demo can be tested with the provided Excel-files
 
 Build the Docker image from the provided 'Dockerfile':
-docker build -t aiko-demo-activelifelab .
+`sudo docker build -t aiko-demo-activelifelab .`
 
 Run the Docker container
-docker run -p 7860:7860 aiko-demo-activelifelab
+`sudo docker run -p 7860:7860 aiko-demo-activelifelab`
